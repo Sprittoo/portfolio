@@ -1682,22 +1682,22 @@ input, select, textarea {
 		border: 0;
 		outline: 0;
 		cursor: pointer;
-		border-radius: 8px;
+		border-radius: 4px;
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
-		padding: 1em 2.35em 1em 2.35em;
-		font-size: 1.1em;
+		background-color: #3b70e2;
+		padding: 1em 1em 1em 1em;
+		font-size: 1em;
 		max-width: 24em;
 	}
 
-		input[type="button"]:hover,
+		input[type="button"]:hover,     
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #43bff0;
+			background-color: #2c8fff;
 			color: #fff !important;
 		}
 
@@ -1832,7 +1832,7 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-linkedin-in {
-					background-color: #006599;
+					background-color: #60b4dd;
 				}
 
 				ul.social li a.fa-tumblr {
@@ -1881,6 +1881,10 @@ input, select, textarea {
 
 				ul.social li a.fa-vimeo {
 					background-color: #4C8AB0;
+				}
+			
+				ul.social li a.fa-wordpress {
+					background-color: #3e9fd6;
 				}
 
 				ul.social li a:hover {
@@ -1987,7 +1991,7 @@ input, select, textarea {
 /* Wrappers */
 
 	.wrapper {
-		background-image: url("images/bg.png");
+		background-image: url("images/trianglebg2.png");
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
 		text-align: center;
