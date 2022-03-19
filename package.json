@@ -10,6 +10,7 @@
   "license": "ISC",
   "homepage": "https://sprittoo.github.io/portfolio",
   "dependencies": {
+    "bootstrap": "^5.1.3",
     "gh-pages": "^3.2.3"
   }
 }
