@@ -1,16 +1,23 @@
 {
-  "name": "mywebsite",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "This is my simple portfolio website.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
-  "author": "Li Ling",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sprittoo/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "homepage": "https://sprittoo.github.io/portfolio",
+  "bugs": {
+    "url": "https://github.com/Sprittoo/portfolio/issues"
+  },
+  "homepage": "https://sprittoo.github.io/portfolio/",
   "dependencies": {
-    "bootstrap": "^5.1.3",
     "gh-pages": "^3.2.3"
   }
 }
